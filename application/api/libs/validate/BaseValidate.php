@@ -4,10 +4,10 @@
  *   Date:   2020/11/4 : 9:57
  */
 
+namespace app\api\libs\validate;
 
-namespace app\cs\validate;
 
-use app\cs\exception\ParameterException;
+use app\api\libs\exception\ParameterException;
 use think\Request;
 use think\Validate;
 

@@ -5,8 +5,7 @@
  */
 
 
-namespace app\cs\exception;
-
+namespace app\api\libs\exception;
 
 class ParameterException extends BaseException
 {

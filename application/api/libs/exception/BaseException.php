@@ -5,7 +5,7 @@
  */
 
 
-namespace app\cs\exception;
+namespace app\api\libs\exception;
 
 use think\Exception;
 

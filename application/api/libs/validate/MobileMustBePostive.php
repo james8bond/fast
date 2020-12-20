@@ -5,8 +5,7 @@
  */
 
 
-namespace app\cs\validate;
-
+namespace app\api\libs\validate;
 
 class MobileMustBePostive extends BaseValidate
 {

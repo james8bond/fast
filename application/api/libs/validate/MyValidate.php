@@ -5,8 +5,7 @@
  */
 
 
-namespace app\cs\validate;
-
+namespace app\api\libs\validate;
 
 class MyValidate extends BaseValidate
 {
@@ -16,6 +15,7 @@ class MyValidate extends BaseValidate
 
     public function __construct($params)
     {
+        parent::__construct();
         if (empty($params)) {
             return;
         }
