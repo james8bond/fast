@@ -21,6 +21,6 @@ if (!function_exists('get_easywechat_payment')) {
         if (empty($wechat)) {
             exception('小程序配置信息不能为空');
         }
-        return EasyWeChat\Factory::miniProgram($wechat);
+        return EasyWeChat\Factory::payment($wechat);
     }
 }
