@@ -34,27 +34,6 @@ FastAdmin是一款基于ThinkPHP5+Bootstrap的极速后台开发框架。
 * 第三方支付(微信、支付宝)无缝整合，微信支持PC端扫码支付
 * 丰富的插件应用市场
 
-## 安装使用
-
-https://doc.fastadmin.net
-
-
-
-## 界面截图
-![控制台](https://images.gitee.com/uploads/images/2020/0929/202947_8db2d281_10933.gif "控制台")
-
-## 问题反馈
-
-在使用中有任何问题，请使用以下联系方式联系我们
-
-交流社区: https://ask.fastadmin.net
-
-QQ群: [636393962](https://jq.qq.com/?_wv=1027&k=487PNBb)(满) [708784003](https://jq.qq.com/?_wv=1027&k=5ObjtwM)(满) [964776039](https://jq.qq.com/?_wv=1027&k=59qjU2P)(3群) [749803490](https://jq.qq.com/?_wv=1027&k=5tczi88)(满) [767103006](https://jq.qq.com/?_wv=1027&k=5Z1U751)(满) [675115483](https://jq.qq.com/?_wv=1027&k=54I6mts)(6群)
-
-Github: https://github.com/karsonzhang/fastadmin
-
-Gitee: https://gitee.com/karson/fastadmin
-
 ## 特别鸣谢
 
 感谢以下的项目,排名不分先后
@@ -80,10 +59,10 @@ DropzoneJS: https://www.dropzonejs.com
 
 ## 版权信息
 
-FastAdmin遵循Apache2开源协议发布，并提供免费使用。
+Fast遵循Apache2开源协议发布，并提供免费使用。
 
 本项目包含的第三方源码和二进制文件之版权信息另行标注。
 
-版权所有Copyright © 2017-2020 by FastAdmin (https://www.fastadmin.net)
+版权所有Copyright © 2017-2021 by james8bond
 
 All rights reserved。
