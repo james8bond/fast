@@ -1,0 +1,2078 @@
+---------------------------------------------------------------
+[ 2021-02-27T11:07:58+08:00 ] 127.0.0.1 GET rurujia.com/wechat/index/index
+[运行时间：0.532898s] [吞吐率：1.88req/s] [内存消耗：3,583.19kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007081s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.014590s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.003032s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx58b7139d6d6883df/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.05.2101272 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'connection' => 'keep-alive',
+  'host' => 'rurujia.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/wechat\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004926s ]
+[ info ] [ RUN ] app\wechat\controller\Index->index[ D:\Program\phpstudy_pro\WWW\rurujia.com\application\wechat\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-27T11:08:00+08:00 ] 127.0.0.1 GET rurujia.com/wechat/index/name?name=b-1
+[运行时间：0.378233s] [吞吐率：2.64req/s] [内存消耗：3,334.73kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000099s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.048891s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001439s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'index',
+    2 => 'name',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx58b7139d6d6883df/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.05.2101272 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'connection' => 'keep-alive',
+  'host' => 'rurujia.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'b-1',
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/wechat\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003666s ]
+[ info ] [ RUN ] app\wechat\controller\Index->name[ D:\Program\phpstudy_pro\WWW\rurujia.com\application\wechat\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-27T11:08:46+08:00 ] 127.0.0.1 GET rurujia.com/wechat/index/index
+[运行时间：0.565946s] [吞吐率：1.77req/s] [内存消耗：3,583.20kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000102s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.044943s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001533s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx58b7139d6d6883df/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.05.2101272 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'connection' => 'keep-alive',
+  'host' => 'rurujia.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/wechat\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.037386s ]
+[ info ] [ RUN ] app\wechat\controller\Index->index[ D:\Program\phpstudy_pro\WWW\rurujia.com\application\wechat\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-27T11:08:47+08:00 ] 127.0.0.1 GET rurujia.com/wechat/index/name?name=b-1
+[运行时间：0.135673s] [吞吐率：7.37req/s] [内存消耗：3,334.73kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000068s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007440s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000967s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'index',
+    2 => 'name',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx58b7139d6d6883df/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.05.2101272 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'connection' => 'keep-alive',
+  'host' => 'rurujia.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'b-1',
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/wechat\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003012s ]
+[ info ] [ RUN ] app\wechat\controller\Index->name[ D:\Program\phpstudy_pro\WWW\rurujia.com\application\wechat\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-27T11:08:59+08:00 ] 127.0.0.1 GET rurujia.com/wechat/index/index
+[运行时间：0.302293s] [吞吐率：3.31req/s] [内存消耗：3,583.20kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000071s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008180s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001296s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx58b7139d6d6883df/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.05.2101272 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'connection' => 'keep-alive',
+  'host' => 'rurujia.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/wechat\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002992s ]
+[ info ] [ RUN ] app\wechat\controller\Index->index[ D:\Program\phpstudy_pro\WWW\rurujia.com\application\wechat\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-27T11:09:00+08:00 ] 127.0.0.1 GET rurujia.com/wechat/index/name?name=b-1
+[运行时间：0.126676s] [吞吐率：7.89req/s] [内存消耗：3,334.73kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000066s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005426s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001114s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'index',
+    2 => 'name',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx58b7139d6d6883df/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.05.2101272 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'connection' => 'keep-alive',
+  'host' => 'rurujia.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'b-1',
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/wechat\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001854s ]
+[ info ] [ RUN ] app\wechat\controller\Index->name[ D:\Program\phpstudy_pro\WWW\rurujia.com\application\wechat\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-27T11:09:34+08:00 ] 127.0.0.1 GET rurujia.com/wechat/index/index
+[运行时间：0.563468s] [吞吐率：1.77req/s] [内存消耗：3,583.20kb] [文件加载：129]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000183s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.012046s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001199s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx58b7139d6d6883df/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.05.2102242 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'connection' => 'keep-alive',
+  'host' => 'rurujia.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/wechat\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003987s ]
+[ info ] [ RUN ] app\wechat\controller\Index->index[ D:\Program\phpstudy_pro\WWW\rurujia.com\application\wechat\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-27T11:09:35+08:00 ] 127.0.0.1 GET rurujia.com/wechat/index/name?name=b-1
+[运行时间：0.153223s] [吞吐率：6.53req/s] [内存消耗：3,334.73kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000096s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.010419s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000946s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'index',
+    2 => 'name',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx58b7139d6d6883df/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.05.2102242 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'connection' => 'keep-alive',
+  'host' => 'rurujia.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'b-1',
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/wechat\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003722s ]
+[ info ] [ RUN ] app\wechat\controller\Index->name[ D:\Program\phpstudy_pro\WWW\rurujia.com\application\wechat\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-27T11:22:31+08:00 ] 127.0.0.1 GET rurujia.com/wechat/index/index
+[运行时间：0.137339s] [吞吐率：7.28req/s] [内存消耗：3,311.70kb] [文件加载：124]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000080s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009052s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001446s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'rurujia.com',
+  'postman-token' => 'bd516e1e-abae-4333-9a81-987182ea2b43',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.10',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/wechat\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003415s ]
+[ info ] [ RUN ] app\wechat\controller\Index->index[ D:\Program\phpstudy_pro\WWW\rurujia.com\application\wechat\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-27T11:22:59+08:00 ] 127.0.0.1 GET rurujia.com/wechat/index/index
+[运行时间：0.111797s] [吞吐率：8.94req/s] [内存消耗：3,311.70kb] [文件加载：124]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000061s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007471s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000811s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'rurujia.com',
+  'postman-token' => '249411b6-e3bf-45fb-91ff-358ec09d8a88',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.10',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/wechat\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002245s ]
+[ info ] [ RUN ] app\wechat\controller\Index->index[ D:\Program\phpstudy_pro\WWW\rurujia.com\application\wechat\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-27T11:27:33+08:00 ] 127.0.0.1 GET rurujia.com/wechat/index/test
+[运行时间：0.128707s] [吞吐率：7.77req/s] [内存消耗：3,312.82kb] [文件加载：124]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000064s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008296s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001309s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'rurujia.com',
+  'postman-token' => 'f36b677e-7c59-4923-a488-4c06ad12f2af',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.10',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/wechat\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003304s ]
+[ info ] [ RUN ] app\wechat\controller\Index->test[ D:\Program\phpstudy_pro\WWW\rurujia.com\application\wechat\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-27T11:28:18+08:00 ] 127.0.0.1 GET rurujia.com/wechat/index/test
+[运行时间：0.129943s] [吞吐率：7.70req/s] [内存消耗：3,312.82kb] [文件加载：124]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000101s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008969s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001239s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'rurujia.com',
+  'postman-token' => 'beaf17c1-33dd-489a-b360-471605c46db5',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.10',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/wechat\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003086s ]
+[ info ] [ RUN ] app\wechat\controller\Index->test[ D:\Program\phpstudy_pro\WWW\rurujia.com\application\wechat\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-27T11:28:27+08:00 ] 127.0.0.1 GET rurujia.com/wechat/index/test
+[运行时间：0.135255s] [吞吐率：7.39req/s] [内存消耗：3,312.82kb] [文件加载：124]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000070s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006073s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001326s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'rurujia.com',
+  'postman-token' => 'd2237d53-e263-4add-bf76-4ebb1663f1f7',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.10',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/wechat\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003491s ]
+[ info ] [ RUN ] app\wechat\controller\Index->test[ D:\Program\phpstudy_pro\WWW\rurujia.com\application\wechat\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-27T11:28:40+08:00 ] 127.0.0.1 GET rurujia.com/wechat/index/test
+[运行时间：0.120803s] [吞吐率：8.28req/s] [内存消耗：3,312.79kb] [文件加载：124]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000060s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006569s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000994s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'rurujia.com',
+  'postman-token' => '5ecbb1e3-23ac-4c32-9b31-4b492c0c1567',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.10',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/wechat\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002524s ]
+[ info ] [ RUN ] app\wechat\controller\Index->test[ D:\Program\phpstudy_pro\WWW\rurujia.com\application\wechat\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-27T11:35:47+08:00 ] 127.0.0.1 GET rurujia.com/wechat/index/test
+[运行时间：0.191056s] [吞吐率：5.23req/s] [内存消耗：3,397.22kb] [文件加载：124]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000100s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.013383s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.002614s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'rurujia.com',
+  'postman-token' => '1bb7df94-178b-4b77-9648-85d361fa2b8e',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.10',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/wechat\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002799s ]
+[ info ] [ RUN ] app\wechat\controller\Index->test[ D:\Program\phpstudy_pro\WWW\rurujia.com\application\wechat\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-27T11:38:23+08:00 ] 127.0.0.1 GET rurujia.com/wechat/index/test
+[运行时间：0.139458s] [吞吐率：7.17req/s] [内存消耗：3,312.79kb] [文件加载：124]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000094s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008310s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001225s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'rurujia.com',
+  'postman-token' => 'ac2f4d93-30bb-4a5b-bc07-46b4152de440',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.10',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/wechat\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002565s ]
+[ info ] [ RUN ] app\wechat\controller\Index->test[ D:\Program\phpstudy_pro\WWW\rurujia.com\application\wechat\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-27T11:59:27+08:00 ] 127.0.0.1 GET rurujia.com/wechat/index/test
+[运行时间：0.133883s] [吞吐率：7.47req/s] [内存消耗：3,312.79kb] [文件加载：124]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000062s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008563s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001327s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'rurujia.com',
+  'postman-token' => 'b0098af7-60ed-40be-a165-48ab2c302d03',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.10',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/wechat\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002358s ]
+[ info ] [ RUN ] app\wechat\controller\Index->test[ D:\Program\phpstudy_pro\WWW\rurujia.com\application\wechat\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-27T11:59:34+08:00 ] 127.0.0.1 GET rurujia.com/wechat/index/test
+[运行时间：0.117408s] [吞吐率：8.52req/s] [内存消耗：3,312.79kb] [文件加载：124]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000058s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007643s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000952s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'rurujia.com',
+  'postman-token' => 'dd90d4ca-8b08-4570-a296-30964ad3dc0b',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.10',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/wechat\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002547s ]
+[ info ] [ RUN ] app\wechat\controller\Index->test[ D:\Program\phpstudy_pro\WWW\rurujia.com\application\wechat\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-27T12:00:01+08:00 ] 127.0.0.1 GET rurujia.com/wechat/index/test
+[运行时间：0.105027s] [吞吐率：9.52req/s] [内存消耗：3,312.79kb] [文件加载：124]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000063s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006066s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001129s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'rurujia.com',
+  'postman-token' => 'ef615988-2fd4-4e2c-9ebb-0197a0418170',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.10',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/wechat\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001906s ]
+[ info ] [ RUN ] app\wechat\controller\Index->test[ D:\Program\phpstudy_pro\WWW\rurujia.com\application\wechat\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-27T12:00:02+08:00 ] 127.0.0.1 GET rurujia.com/wechat/index/test
+[运行时间：0.249264s] [吞吐率：4.01req/s] [内存消耗：3,312.79kb] [文件加载：124]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000099s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.011939s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001684s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'rurujia.com',
+  'postman-token' => 'e1cb560f-a2d2-4113-bebf-ce1147bccec9',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.10',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/wechat\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003756s ]
+[ info ] [ RUN ] app\wechat\controller\Index->test[ D:\Program\phpstudy_pro\WWW\rurujia.com\application\wechat\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-27T12:00:07+08:00 ] 127.0.0.1 GET rurujia.com/wechat/index/test
+[运行时间：0.137865s] [吞吐率：7.25req/s] [内存消耗：3,312.79kb] [文件加载：124]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000068s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009040s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001648s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'rurujia.com',
+  'postman-token' => '9b8043f8-a6cf-49ce-8d68-b9ff4de5d61a',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.10',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/wechat\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003971s ]
+[ info ] [ RUN ] app\wechat\controller\Index->test[ D:\Program\phpstudy_pro\WWW\rurujia.com\application\wechat\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-27T12:00:18+08:00 ] 127.0.0.1 GET rurujia.com/wechat/index/test
+[运行时间：0.127241s] [吞吐率：7.86req/s] [内存消耗：3,312.79kb] [文件加载：124]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000062s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009898s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001099s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'rurujia.com',
+  'postman-token' => '7e7edecf-a379-4234-b6ec-e67935dfebaf',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.10',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/wechat\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002231s ]
+[ info ] [ RUN ] app\wechat\controller\Index->test[ D:\Program\phpstudy_pro\WWW\rurujia.com\application\wechat\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-27T12:00:19+08:00 ] 127.0.0.1 GET rurujia.com/wechat/index/test
+[运行时间：0.142939s] [吞吐率：7.00req/s] [内存消耗：3,312.79kb] [文件加载：124]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000149s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.011458s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.002771s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'rurujia.com',
+  'postman-token' => '963eebe4-e377-4ef8-b667-7307209548cc',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.10',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/wechat\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002229s ]
+[ info ] [ RUN ] app\wechat\controller\Index->test[ D:\Program\phpstudy_pro\WWW\rurujia.com\application\wechat\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-27T12:00:52+08:00 ] 127.0.0.1 GET rurujia.com/wechat/index/test
+[运行时间：0.107836s] [吞吐率：9.27req/s] [内存消耗：3,312.80kb] [文件加载：124]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000059s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007559s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000870s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'rurujia.com',
+  'postman-token' => '9d0d9093-1c89-40ca-ba6b-37af15c779a7',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.10',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/wechat\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002150s ]
+[ info ] [ RUN ] app\wechat\controller\Index->test[ D:\Program\phpstudy_pro\WWW\rurujia.com\application\wechat\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-27T12:01:13+08:00 ] 127.0.0.1 GET rurujia.com/wechat/index/test
+[运行时间：0.109105s] [吞吐率：9.17req/s] [内存消耗：3,312.80kb] [文件加载：124]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000098s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006367s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000927s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'rurujia.com',
+  'postman-token' => '9d5a4b7c-4911-4868-8813-6accabd2ae8b',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.10',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/wechat\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002874s ]
+[ info ] [ RUN ] app\wechat\controller\Index->test[ D:\Program\phpstudy_pro\WWW\rurujia.com\application\wechat\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-27T12:01:22+08:00 ] 127.0.0.1 GET rurujia.com/wechat/index/test
+[运行时间：0.140118s] [吞吐率：7.14req/s] [内存消耗：3,312.80kb] [文件加载：124]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000064s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008820s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000902s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'rurujia.com',
+  'postman-token' => '5260452a-354d-46ac-8408-4f622936dc5c',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.10',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/wechat\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003665s ]
+[ info ] [ RUN ] app\wechat\controller\Index->test[ D:\Program\phpstudy_pro\WWW\rurujia.com\application\wechat\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-27T12:07:00+08:00 ] 127.0.0.1 GET rurujia.com/wechat/index/test
+[运行时间：0.138008s] [吞吐率：7.25req/s] [内存消耗：3,312.80kb] [文件加载：124]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000140s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008379s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001251s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'rurujia.com',
+  'postman-token' => 'fdcc9b94-95bf-4127-9496-6511314d4b98',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.10',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/wechat\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002837s ]
+[ info ] [ RUN ] app\wechat\controller\Index->test[ D:\Program\phpstudy_pro\WWW\rurujia.com\application\wechat\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-27T12:07:12+08:00 ] 127.0.0.1 GET rurujia.com/wechat/index/test
+[运行时间：0.109091s] [吞吐率：9.17req/s] [内存消耗：3,312.80kb] [文件加载：124]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000062s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005492s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000868s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'rurujia.com',
+  'postman-token' => 'bb817bb1-ecc0-4bc6-a263-a71a512c907f',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.10',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/wechat\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001899s ]
+[ info ] [ RUN ] app\wechat\controller\Index->test[ D:\Program\phpstudy_pro\WWW\rurujia.com\application\wechat\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-27T12:07:41+08:00 ] 127.0.0.1 GET rurujia.com/wechat/index/test
+[运行时间：0.105607s] [吞吐率：9.47req/s] [内存消耗：3,312.80kb] [文件加载：124]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000061s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005636s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000874s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'rurujia.com',
+  'postman-token' => '87de2cb9-1807-48f6-b4c0-5b7283a907a8',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.10',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/wechat\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001927s ]
+[ info ] [ RUN ] app\wechat\controller\Index->test[ D:\Program\phpstudy_pro\WWW\rurujia.com\application\wechat\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-27T12:07:48+08:00 ] 127.0.0.1 GET rurujia.com/wechat/index/test
+[运行时间：0.100736s] [吞吐率：9.93req/s] [内存消耗：3,312.83kb] [文件加载：124]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000062s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006169s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000881s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'rurujia.com',
+  'postman-token' => '70298bcd-ee5f-4e45-8dd0-301ff5727909',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.10',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/wechat\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002187s ]
+[ info ] [ RUN ] app\wechat\controller\Index->test[ D:\Program\phpstudy_pro\WWW\rurujia.com\application\wechat\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-27T12:08:28+08:00 ] 127.0.0.1 GET rurujia.com/wechat/index/test
+[运行时间：0.113761s] [吞吐率：8.79req/s] [内存消耗：3,312.83kb] [文件加载：124]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000099s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009304s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000797s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'rurujia.com',
+  'postman-token' => '705dca9d-f67e-4603-a5fe-7df44040abbc',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.10',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/wechat\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002842s ]
+[ info ] [ RUN ] app\wechat\controller\Index->test[ D:\Program\phpstudy_pro\WWW\rurujia.com\application\wechat\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-27T12:22:16+08:00 ] 127.0.0.1 GET rurujia.com/wechat/index/index
+[运行时间：0.186287s] [吞吐率：5.37req/s] [内存消耗：3,313.81kb] [文件加载：124]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000156s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.011398s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001518s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx58b7139d6d6883df/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.05.2102242 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'connection' => 'keep-alive',
+  'host' => 'rurujia.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/wechat\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002749s ]
+[ info ] [ RUN ] app\wechat\controller\Index->index[ D:\Program\phpstudy_pro\WWW\rurujia.com\application\wechat\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-27T12:22:17+08:00 ] 127.0.0.1 GET rurujia.com/wechat/index/name?name=b-1
+[运行时间：0.122324s] [吞吐率：8.18req/s] [内存消耗：3,335.48kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000086s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.010747s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000819s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'index',
+    2 => 'name',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx58b7139d6d6883df/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.05.2102242 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'connection' => 'keep-alive',
+  'host' => 'rurujia.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'b-1',
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/wechat\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002019s ]
+[ info ] [ RUN ] app\wechat\controller\Index->name[ D:\Program\phpstudy_pro\WWW\rurujia.com\application\wechat\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-27T12:22:35+08:00 ] 127.0.0.1 GET rurujia.com/wechat/index/index
+[运行时间：0.205810s] [吞吐率：4.86req/s] [内存消耗：3,313.81kb] [文件加载：124]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000067s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.015685s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001539s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx58b7139d6d6883df/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.05.2102242 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'connection' => 'keep-alive',
+  'host' => 'rurujia.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/wechat\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004157s ]
+[ info ] [ RUN ] app\wechat\controller\Index->index[ D:\Program\phpstudy_pro\WWW\rurujia.com\application\wechat\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-27T12:22:36+08:00 ] 127.0.0.1 GET rurujia.com/wechat/index/name?name=b-1
+[运行时间：0.192671s] [吞吐率：5.19req/s] [内存消耗：3,335.48kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000101s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009671s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001409s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'index',
+    2 => 'name',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx58b7139d6d6883df/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.05.2102242 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'connection' => 'keep-alive',
+  'host' => 'rurujia.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'b-1',
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/wechat\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003217s ]
+[ info ] [ RUN ] app\wechat\controller\Index->name[ D:\Program\phpstudy_pro\WWW\rurujia.com\application\wechat\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-27T12:23:30+08:00 ] 127.0.0.1 GET rurujia.com/wechat/index/index
+[运行时间：0.304465s] [吞吐率：3.28req/s] [内存消耗：3,313.81kb] [文件加载：124]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000099s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.016268s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001502s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx58b7139d6d6883df/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.05.2102242 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'connection' => 'keep-alive',
+  'host' => 'rurujia.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/wechat\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004133s ]
+[ info ] [ RUN ] app\wechat\controller\Index->index[ D:\Program\phpstudy_pro\WWW\rurujia.com\application\wechat\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-27T12:23:31+08:00 ] 127.0.0.1 GET rurujia.com/wechat/index/name?name=b-1
+[运行时间：0.158109s] [吞吐率：6.32req/s] [内存消耗：3,335.48kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000066s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008264s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000988s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'index',
+    2 => 'name',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx58b7139d6d6883df/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.05.2102242 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'connection' => 'keep-alive',
+  'host' => 'rurujia.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'b-1',
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/wechat\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002235s ]
+[ info ] [ RUN ] app\wechat\controller\Index->name[ D:\Program\phpstudy_pro\WWW\rurujia.com\application\wechat\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-27T12:23:49+08:00 ] 127.0.0.1 GET rurujia.com/wechat/index/index
+[运行时间：0.212435s] [吞吐率：4.71req/s] [内存消耗：3,313.81kb] [文件加载：124]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000068s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009629s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001697s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx58b7139d6d6883df/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.05.2102242 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'connection' => 'keep-alive',
+  'host' => 'rurujia.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/wechat\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.006138s ]
+[ info ] [ RUN ] app\wechat\controller\Index->index[ D:\Program\phpstudy_pro\WWW\rurujia.com\application\wechat\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-27T12:23:50+08:00 ] 127.0.0.1 GET rurujia.com/wechat/index/name?name=b-1
+[运行时间：0.188560s] [吞吐率：5.30req/s] [内存消耗：3,335.48kb] [文件加载：126]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000172s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008864s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001793s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'index',
+    2 => 'name',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx58b7139d6d6883df/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.05.2102242 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'connection' => 'keep-alive',
+  'host' => 'rurujia.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'b-1',
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/wechat\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003485s ]
+[ info ] [ RUN ] app\wechat\controller\Index->name[ D:\Program\phpstudy_pro\WWW\rurujia.com\application\wechat\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-27T16:57:00+08:00 ] 127.0.0.1 GET rurujia.com/wechat/index/test
+[运行时间：0.139766s] [吞吐率：7.15req/s] [内存消耗：3,314.75kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000112s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007232s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001299s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'rurujia.com',
+  'postman-token' => 'e577d762-4a2d-4745-9524-159681567956',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.10',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/wechat\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002584s ]
+[ info ] [ RUN ] app\wechat\controller\Index->test[ D:\Program\phpstudy_pro\WWW\rurujia.com\application\wechat\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-27T17:00:55+08:00 ] 127.0.0.1 GET rurujia.com/wechat/index/test
+[运行时间：0.224434s] [吞吐率：4.46req/s] [内存消耗：3,845.26kb] [文件加载：166]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000075s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009388s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001560s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'rurujia.com',
+  'postman-token' => 'f2d32678-2452-47a4-b46d-04a2ee8169b7',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.10',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/wechat\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002287s ]
+[ info ] [ RUN ] app\wechat\controller\Index->test[ D:\Program\phpstudy_pro\WWW\rurujia.com\application\wechat\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-27T17:01:55+08:00 ] 127.0.0.1 GET rurujia.com/wechat/index/test
+[运行时间：0.166350s] [吞吐率：6.01req/s] [内存消耗：3,846.34kb] [文件加载：166]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000069s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008071s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001302s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'rurujia.com',
+  'postman-token' => '3ee42759-0ce7-4f35-95fb-3bc632d29bf9',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.10',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/wechat\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002727s ]
+[ info ] [ RUN ] app\wechat\controller\Index->test[ D:\Program\phpstudy_pro\WWW\rurujia.com\application\wechat\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-27T17:06:24+08:00 ] 127.0.0.1 GET rurujia.com/wechat/index/index
+[运行时间：0.550277s] [吞吐率：1.82req/s] [内存消耗：3,318.69kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000122s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.032557s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.003133s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx58b7139d6d6883df/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.05.2102242 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'connection' => 'keep-alive',
+  'host' => 'rurujia.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/wechat\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004417s ]
+[ info ] [ RUN ] app\wechat\controller\Index->index[ D:\Program\phpstudy_pro\WWW\rurujia.com\application\wechat\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-27T17:06:25+08:00 ] 127.0.0.1 GET rurujia.com/wechat/index/name?name=b-1
+[运行时间：0.112467s] [吞吐率：8.89req/s] [内存消耗：3,340.35kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000076s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008898s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000810s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'index',
+    2 => 'name',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx58b7139d6d6883df/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.05.2102242 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'connection' => 'keep-alive',
+  'host' => 'rurujia.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'b-1',
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/wechat\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001885s ]
+[ info ] [ RUN ] app\wechat\controller\Index->name[ D:\Program\phpstudy_pro\WWW\rurujia.com\application\wechat\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-27T17:07:51+08:00 ] 127.0.0.1 GET rurujia.com/wechat/index/index
+[运行时间：0.345037s] [吞吐率：2.90req/s] [内存消耗：3,318.69kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000124s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.088748s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001648s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx58b7139d6d6883df/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.05.2102242 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'connection' => 'keep-alive',
+  'host' => 'rurujia.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/wechat\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004681s ]
+[ info ] [ RUN ] app\wechat\controller\Index->index[ D:\Program\phpstudy_pro\WWW\rurujia.com\application\wechat\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-27T17:07:52+08:00 ] 127.0.0.1 GET rurujia.com/wechat/index/name?name=b-1
+[运行时间：0.184958s] [吞吐率：5.41req/s] [内存消耗：3,340.35kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000092s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009368s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001681s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'index',
+    2 => 'name',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx58b7139d6d6883df/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.05.2102242 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'connection' => 'keep-alive',
+  'host' => 'rurujia.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'b-1',
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/wechat\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004380s ]
+[ info ] [ RUN ] app\wechat\controller\Index->name[ D:\Program\phpstudy_pro\WWW\rurujia.com\application\wechat\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-27T17:08:02+08:00 ] 127.0.0.1 GET rurujia.com/wechat/index/index
+[运行时间：0.180086s] [吞吐率：5.55req/s] [内存消耗：3,318.69kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000133s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.011436s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000961s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx58b7139d6d6883df/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.05.2102242 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'connection' => 'keep-alive',
+  'host' => 'rurujia.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/wechat\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004643s ]
+[ info ] [ RUN ] app\wechat\controller\Index->index[ D:\Program\phpstudy_pro\WWW\rurujia.com\application\wechat\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-27T17:08:03+08:00 ] 127.0.0.1 GET rurujia.com/wechat/index/name?name=b-1
+[运行时间：0.144892s] [吞吐率：6.90req/s] [内存消耗：3,340.35kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000073s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005873s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001544s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'index',
+    2 => 'name',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx58b7139d6d6883df/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.05.2102242 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'connection' => 'keep-alive',
+  'host' => 'rurujia.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'b-1',
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/wechat\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003045s ]
+[ info ] [ RUN ] app\wechat\controller\Index->name[ D:\Program\phpstudy_pro\WWW\rurujia.com\application\wechat\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-27T17:08:34+08:00 ] 127.0.0.1 GET rurujia.com/wechat/index/index
+[运行时间：0.292016s] [吞吐率：3.42req/s] [内存消耗：3,318.69kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000147s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.012754s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.012215s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx58b7139d6d6883df/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.05.2102242 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'connection' => 'keep-alive',
+  'host' => 'rurujia.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/wechat\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.010543s ]
+[ info ] [ RUN ] app\wechat\controller\Index->index[ D:\Program\phpstudy_pro\WWW\rurujia.com\application\wechat\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-27T17:08:35+08:00 ] 127.0.0.1 GET rurujia.com/wechat/index/name?name=b-1
+[运行时间：0.130909s] [吞吐率：7.64req/s] [内存消耗：3,340.35kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000075s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006567s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000846s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'index',
+    2 => 'name',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx58b7139d6d6883df/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.05.2102242 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'connection' => 'keep-alive',
+  'host' => 'rurujia.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'b-1',
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/wechat\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002165s ]
+[ info ] [ RUN ] app\wechat\controller\Index->name[ D:\Program\phpstudy_pro\WWW\rurujia.com\application\wechat\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-27T17:09:03+08:00 ] 127.0.0.1 GET rurujia.com/wechat/index/index
+[运行时间：0.246137s] [吞吐率：4.06req/s] [内存消耗：3,318.69kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000119s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.010777s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001707s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx58b7139d6d6883df/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.05.2102242 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'connection' => 'keep-alive',
+  'host' => 'rurujia.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/wechat\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003002s ]
+[ info ] [ RUN ] app\wechat\controller\Index->index[ D:\Program\phpstudy_pro\WWW\rurujia.com\application\wechat\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-27T17:09:04+08:00 ] 127.0.0.1 GET rurujia.com/wechat/index/name?name=b-1
+[运行时间：0.160514s] [吞吐率：6.23req/s] [内存消耗：3,340.35kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000079s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008126s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000792s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'index',
+    2 => 'name',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx58b7139d6d6883df/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.05.2102242 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'connection' => 'keep-alive',
+  'host' => 'rurujia.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'b-1',
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/wechat\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002847s ]
+[ info ] [ RUN ] app\wechat\controller\Index->name[ D:\Program\phpstudy_pro\WWW\rurujia.com\application\wechat\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-27T17:09:25+08:00 ] 127.0.0.1 GET rurujia.com/wechat/index/index
+[运行时间：0.322531s] [吞吐率：3.10req/s] [内存消耗：3,318.69kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000177s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.013372s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.002267s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx58b7139d6d6883df/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.05.2102242 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'connection' => 'keep-alive',
+  'host' => 'rurujia.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/wechat\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003742s ]
+[ info ] [ RUN ] app\wechat\controller\Index->index[ D:\Program\phpstudy_pro\WWW\rurujia.com\application\wechat\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-27T17:09:26+08:00 ] 127.0.0.1 GET rurujia.com/wechat/index/name?name=b-1
+[运行时间：0.148254s] [吞吐率：6.75req/s] [内存消耗：3,340.35kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000078s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006771s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001199s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'index',
+    2 => 'name',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx58b7139d6d6883df/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.05.2102242 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'connection' => 'keep-alive',
+  'host' => 'rurujia.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'b-1',
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/wechat\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001966s ]
+[ info ] [ RUN ] app\wechat\controller\Index->name[ D:\Program\phpstudy_pro\WWW\rurujia.com\application\wechat\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-27T17:10:27+08:00 ] 127.0.0.1 GET rurujia.com/wechat/index/index
+[运行时间：0.183899s] [吞吐率：5.44req/s] [内存消耗：3,318.69kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000080s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.011875s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.003007s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx58b7139d6d6883df/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.05.2102242 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'connection' => 'keep-alive',
+  'host' => 'rurujia.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/wechat\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002484s ]
+[ info ] [ RUN ] app\wechat\controller\Index->index[ D:\Program\phpstudy_pro\WWW\rurujia.com\application\wechat\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-27T17:10:29+08:00 ] 127.0.0.1 GET rurujia.com/wechat/index/name?name=b-1
+[运行时间：0.116101s] [吞吐率：8.61req/s] [内存消耗：3,340.35kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000068s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009075s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001218s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'index',
+    2 => 'name',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx58b7139d6d6883df/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.05.2102242 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'connection' => 'keep-alive',
+  'host' => 'rurujia.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'b-1',
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/wechat\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001916s ]
+[ info ] [ RUN ] app\wechat\controller\Index->name[ D:\Program\phpstudy_pro\WWW\rurujia.com\application\wechat\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-27T17:10:41+08:00 ] 127.0.0.1 GET rurujia.com/wechat/index/index
+[运行时间：0.278108s] [吞吐率：3.60req/s] [内存消耗：3,318.69kb] [文件加载：125]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000147s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.028052s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.005771s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx58b7139d6d6883df/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.05.2102242 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'connection' => 'keep-alive',
+  'host' => 'rurujia.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/wechat\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.005203s ]
+[ info ] [ RUN ] app\wechat\controller\Index->index[ D:\Program\phpstudy_pro\WWW\rurujia.com\application\wechat\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-27T17:10:42+08:00 ] 127.0.0.1 GET rurujia.com/wechat/index/name?name=b-1
+[运行时间：0.181327s] [吞吐率：5.51req/s] [内存消耗：3,340.35kb] [文件加载：127]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000111s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007956s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001310s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'index',
+    2 => 'name',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx58b7139d6d6883df/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.05.2102242 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'connection' => 'keep-alive',
+  'host' => 'rurujia.com',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'b-1',
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/wechat\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003560s ]
+[ info ] [ RUN ] app\wechat\controller\Index->name[ D:\Program\phpstudy_pro\WWW\rurujia.com\application\wechat\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-27T17:13:41+08:00 ] 127.0.0.1 POST rurujia.com/wechat/index/test?code
+[运行时间：0.216722s] [吞吐率：4.61req/s] [内存消耗：3,397.77kb] [文件加载：131]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000080s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008637s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001818s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'rurujia.com',
+  'postman-token' => 'afa0726f-5776-4b07-9f66-86284eeb2243',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.10',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'code' => '',
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/wechat\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.006811s ]
+[ info ] [ RUN ] app\wechat\controller\Index->test[ D:\Program\phpstudy_pro\WWW\rurujia.com\application\wechat\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [200][D:\Program\phpstudy_pro\WWW\rurujia.com\application\wechat\libs\validate\BaseValidate.php:37]
+---------------------------------------------------------------
+[ 2021-02-27T17:15:10+08:00 ] 127.0.0.1 POST rurujia.com/wechat/index/test?code
+[运行时间：67.945965s] [吞吐率：0.01req/s] [内存消耗：3,255.99kb] [文件加载：121]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000108s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.011622s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001259s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'index',
+    2 => 'test',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'rurujia.com',
+  'postman-token' => '350b60d3-e7bb-4fbd-8a95-1742cff3a521',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.10',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'code' => '',
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/wechat\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003489s ]
+[ info ] [ RUN ] app\wechat\controller\Index->test[ D:\Program\phpstudy_pro\WWW\rurujia.com\application\wechat\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-27T17:24:28+08:00 ] 127.0.0.1 POST rurujia.com/api/user/register?username=bourne&password=111111&email=15974708423@139.com&mobile=15974708423
+[运行时间：0.219390s] [吞吐率：4.56req/s] [内存消耗：4,527.93kb] [文件加载：132]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000067s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.010358s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001723s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'register',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'rurujia.com',
+  'postman-token' => '692e99bd-18da-40b8-ab3a-6098838dd054',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.10',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'bourne',
+  'password' => '111111',
+  'email' => '15974708423@139.com',
+  'mobile' => '15974708423',
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002486s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/api/lang/zh-cn/user.php
+[ info ] [ RUN ] app\api\controller\User->register[ D:\Program\phpstudy_pro\WWW\rurujia.com\application\api\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-27T17:25:19+08:00 ] 127.0.0.1 POST rurujia.com/api/user/register?username=bourne&password=111111&email=15974708423@139.com&mobile=15974708423
+[运行时间：0.228960s] [吞吐率：4.37req/s] [内存消耗：4,635.21kb] [文件加载：137]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000101s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008412s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001061s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'user',
+    2 => 'register',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'rurujia.com',
+  'postman-token' => 'fe84829c-df4d-4bb0-966d-191281fe0cb3',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.10',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'bourne',
+  'password' => '111111',
+  'email' => '15974708423@139.com',
+  'mobile' => '15974708423',
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003775s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/api/lang/zh-cn/user.php
+[ info ] [ RUN ] app\api\controller\User->register[ D:\Program\phpstudy_pro\WWW\rurujia.com\application\api\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ LOG ] INIT File

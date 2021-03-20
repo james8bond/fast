@@ -34,19 +34,19 @@ class ExceptionHandle extends Handle
         }
 
         $request = Request::instance();
-//        $result  = [
-//            'msg'         => $this->msg,
-//            'error_code'  => $this->errorCode,
-//            'request_url' => $request = $request->url()
-//        ];
-        $result = [
-            'data' => [],
-            'meta' => [
-                'msg'        => $this->msg,
-                'error_code' => $this->errorCode,
-                'url'        => $request = $request->url()
-            ]
+        $result  = [
+            'msg'         => $this->msg,
+            'code'  => $this->errorCode,
+            'request_url' => $request = $request->url()
         ];
+//        $result = [
+//            'data' => [],
+//            'meta' => [
+//                'msg'        => $this->msg,
+//                'code' => $this->errorCode,
+//                'url'        => $request = $request->url()
+//            ]
+//        ];
 
         return json($result, $this->code);
 

@@ -1,0 +1,186 @@
+---------------------------------------------------------------
+[ 2021-03-18T14:06:53+08:00 ] 127.0.0.1 GET rurujia.com/wechat/coupon/get_free_coupon?coupon_id=11
+[运行时间：37.321142s] [吞吐率：0.03req/s] [内存消耗：4,686.60kb] [文件加载：143]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.002238s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.012003s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.002561s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'coupon',
+    2 => 'get_free_coupon',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'rurujia.com',
+  'postman-token' => 'e174f381-91c6-43e9-8e43-fd208266d560',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.10',
+  'token' => '0ab8a330-7e35-4023-aa06-1dcc019f7f3b',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'coupon_id' => '11',
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/wechat\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003762s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wechat\controller\Coupon->get_free_coupon[ D:\Program\phpstudy_pro\WWW\rurujia.com\application\wechat\controller\Coupon.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]类型错误: Argument 1 passed to app\common\controller\Api::__construct() must be an instance of think\Request or null, int given, called in D:\Program\phpstudy_pro\WWW\rurujia.com\application\wechat\controller\Coupon.php on line 48[D:\Program\phpstudy_pro\WWW\rurujia.com\application\common\controller\Api.php:73]
+---------------------------------------------------------------
+[ 2021-03-18T14:06:58+08:00 ] 127.0.0.1 GET rurujia.com/wechat/coupon/get_free_coupon?coupon_id=11
+[运行时间：3.236877s] [吞吐率：0.31req/s] [内存消耗：4,583.30kb] [文件加载：141]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000061s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005214s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000975s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'coupon',
+    2 => 'get_free_coupon',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'rurujia.com',
+  'postman-token' => '9dbe485e-d482-4752-b1bd-88f12a3160d0',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.10',
+  'token' => '0ab8a330-7e35-4023-aa06-1dcc019f7f3b',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'coupon_id' => '11',
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/wechat\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001865s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wechat\controller\Coupon->get_free_coupon[ D:\Program\phpstudy_pro\WWW\rurujia.com\application\wechat\controller\Coupon.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-03-18T14:07:21+08:00 ] 127.0.0.1 GET rurujia.com/wechat/coupon/get_free_coupon?coupon_id=11
+[运行时间：1.918503s] [吞吐率：0.52req/s] [内存消耗：4,638.62kb] [文件加载：144]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000074s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007374s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001845s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'coupon',
+    2 => 'get_free_coupon',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'rurujia.com',
+  'postman-token' => '11295efa-7fb8-4a7c-8ca0-177a64ae0ce2',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.10',
+  'token' => '0ab8a330-7e35-4023-aa06-1dcc019f7f3b',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'coupon_id' => '11',
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/wechat\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002494s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wechat\controller\Coupon->get_free_coupon[ D:\Program\phpstudy_pro\WWW\rurujia.com\application\wechat\controller\Coupon.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]类型错误: Argument 1 passed to app\common\controller\Api::__construct() must be an instance of think\Request or null, int given, called in D:\Program\phpstudy_pro\WWW\rurujia.com\application\wechat\controller\Coupon.php on line 48[D:\Program\phpstudy_pro\WWW\rurujia.com\application\common\controller\Api.php:73]
+---------------------------------------------------------------
+[ 2021-03-18T14:45:58+08:00 ] 127.0.0.1 GET rurujia.com/wechat/coupon/get_free_coupon?coupon_id=1
+[运行时间：42.160775s] [吞吐率：0.02req/s] [内存消耗：4,680.42kb] [文件加载：147]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000068s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007079s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001120s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'coupon',
+    2 => 'get_free_coupon',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'rurujia.com',
+  'postman-token' => '5f5d7963-3284-4b56-a413-93150b5a826c',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.10',
+  'token' => '0ab8a330-7e35-4023-aa06-1dcc019f7f3b',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'coupon_id' => '1',
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/wechat\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002322s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\wechat\controller\Coupon->get_free_coupon[ D:\Program\phpstudy_pro\WWW\rurujia.com\application\wechat\controller\Coupon.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [200][D:\Program\phpstudy_pro\WWW\rurujia.com\application\wechat\controller\Coupon.php:54]
+---------------------------------------------------------------
+[ 2021-03-18T18:13:19+08:00 ] 127.0.0.1 GET rurujia.com/wechat/order/create_mini_code
+[运行时间：0.499666s] [吞吐率：2.00req/s] [内存消耗：5,116.92kb] [文件加载：240]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000073s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008598s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001115s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wechat',
+    1 => 'order',
+    2 => 'create_mini_code',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'rurujia.com',
+  'postman-token' => '237db6ae-1b9a-47f2-85cb-0ac2d7870b79',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.10',
+  'token' => '0ab8a330-7e35-4023-aa06-1dcc019f7f3b',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/wechat\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003295s ]
+[ info ] [ RUN ] app\wechat\controller\Order->create_mini_code[ D:\Program\phpstudy_pro\WWW\rurujia.com\application\wechat\controller\Order.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]cURL error 60: SSL certificate problem: unable to get local issuer certificate (see https://curl.haxx.se/libcurl/c/libcurl-errors.html)[D:\Program\phpstudy_pro\WWW\rurujia.com\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php:201]

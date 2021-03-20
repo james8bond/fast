@@ -1,0 +1,236 @@
+---------------------------------------------------------------
+[ 2021-02-15T13:45:20+08:00 ] 127.0.0.1 POST rurujia.com/api/index/uuid
+[运行时间：1.035563s] [吞吐率：0.97req/s] [内存消耗：3,358.75kb] [文件加载：124]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003746s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008606s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.002617s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'uuid',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'rurujia.com',
+  'postman-token' => 'bbdbf9ad-0dc4-453c-8f28-25b1e0ab0d12',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.10',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003269s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-15T13:47:23+08:00 ] 127.0.0.1 POST rurujia.com/api/index/uuid
+[运行时间：0.543844s] [吞吐率：1.84req/s] [内存消耗：3,335.72kb] [文件加载：123]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000042s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007310s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001052s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'uuid',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'rurujia.com',
+  'postman-token' => 'e961e513-dfdc-4261-a29a-642882c735b8',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.10',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002702s ]
+[ info ] [ RUN ] app\api\controller\Index->uuid[ D:\Program\phpstudy_pro\WWW\rurujia.com\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-15T14:09:30+08:00 ] 127.0.0.1 GET rurujia.com/api/index/get_user_list
+[运行时间：0.601063s] [吞吐率：1.66req/s] [内存消耗：4,491.79kb] [文件加载：131]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000064s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006527s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001078s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'get_user_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'rurujia.com',
+  'postman-token' => '4ff0bb08-62b6-4b98-a36b-b9fd093b1da2',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.10',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002298s ]
+[ info ] [ RUN ] app\api\controller\Index->get_user_list[ D:\Program\phpstudy_pro\WWW\rurujia.com\application\api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-15T14:10:09+08:00 ] 127.0.0.1 GET rurujia.com/api/index/get_user_list
+[运行时间：0.959952s] [吞吐率：1.04req/s] [内存消耗：4,476.78kb] [文件加载：133]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000095s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005093s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000739s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'get_user_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'rurujia.com',
+  'postman-token' => 'a83b2c0b-8dad-4448-b666-994c315addd2',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.10',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001725s ]
+[ info ] [ RUN ] app\api\controller\Index->get_user_list[ D:\Program\phpstudy_pro\WWW\rurujia.com\application\api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'rurujia_com.fa_' doesn't exist[D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\library\think\db\Connection.php:385]
+---------------------------------------------------------------
+[ 2021-02-15T14:10:24+08:00 ] 127.0.0.1 GET rurujia.com/api/index/get_user_list
+[运行时间：0.557339s] [吞吐率：1.79req/s] [内存消耗：4,492.22kb] [文件加载：131]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000064s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006523s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.002002s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'get_user_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'rurujia.com',
+  'postman-token' => 'b60e463c-571d-4465-b458-30afb2d7734b',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.10',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001732s ]
+[ info ] [ RUN ] app\api\controller\Index->get_user_list[ D:\Program\phpstudy_pro\WWW\rurujia.com\application\api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-15T14:20:11+08:00 ] 127.0.0.1 GET rurujia.com/api/index/get_user_list
+[运行时间：0.598353s] [吞吐率：1.67req/s] [内存消耗：4,492.22kb] [文件加载：131]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000068s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.012722s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001119s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'get_user_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'rurujia.com',
+  'postman-token' => 'd2e4b3cf-4056-4b3a-9463-0d025916ba7e',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.10',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002998s ]
+[ info ] [ RUN ] app\api\controller\Index->get_user_list[ D:\Program\phpstudy_pro\WWW\rurujia.com\application\api\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-15T14:21:43+08:00 ] 127.0.0.1 GET rurujia.com/api/index/get_user_list
+[运行时间：0.612085s] [吞吐率：1.63req/s] [内存消耗：3,819.32kb] [文件加载：128]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000044s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.010643s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.001883s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'get_user_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'rurujia.com',
+  'postman-token' => '596a1f59-0e8a-4946-ba90-ae140df848b3',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.10',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004176s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File

@@ -1,0 +1,38 @@
+---------------------------------------------------------------
+[ 2021-02-18T15:54:01+08:00 ] 127.0.0.1 GET rurujia.com/api/index/get_user_list?id=19
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003600s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.014683s ]
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\thinkphp\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.002835s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'get_user_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'rurujia.com',
+  'postman-token' => '3f901a4a-f9f8-407d-8f4e-b9403f63b64f',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.10',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '19',
+)
+[ info ] [ LANG ] D:\Program\phpstudy_pro\WWW\rurujia.com\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.004546s ]
+[ info ] [ RUN ] app\api\controller\Index->get_user_list[ D:\Program\phpstudy_pro\WWW\rurujia.com\application\api\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-02-18T15:54:01+08:00 ] 127.0.0.1 GET rurujia.com/api/index/get_user_list?id=19
+[运行时间：0.373203s] [吞吐率：2.68req/s] [内存消耗：4,490.84kb] [文件加载：132]
+[ info ] [ BEHAVIOR ] Run app\wechat\behavior\Test @bourne [ RunTime:0.009276s ]
+[ info ] [ DB ] INIT mysql
